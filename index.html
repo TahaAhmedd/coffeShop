@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caffe Shop</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./public/logo.png">
+    <!-- import files -->
+    <link rel="stylesheet" href="./css/glopal.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/hero.css" />
+    <link rel="stylesheet" href="./css/menu.css" />
+    <link rel="stylesheet" href="./css/booking.css" />
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/dfc0a49b08.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Start Navbar -->
+    <header id="navbar">
+      <div class="container">
+        <nav class="navbar">
+          <a href="/" class="nav-branding">
+            <img
+              width="70"
+              height="70"
+              src="./public/logo.png"
+              alt="Perfumes"
+            />
+            <h1 class="nav-header text-secondry">CHipriani</h1>
+          </a>
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#menu" class="nav-link">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a href="#socialmedia" class="nav-link">Social Media</a>
+            </li>
+            <li class="nav-item">
+              <a href="#deliveryapps" class="nav-link">Delivery Apps</a>
+            </li>
+            <li class="nav-item">
+              <a href="#location" class="nav-link">Location</a>
+            </li>
+            <li class="nav-item">
+              <a href="#booking" class="nav-link">Offers</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- End Navbar -->
+
+    <!-- Start Hero Section -->
+    <section
+      class="flex justify-between w-full items-center h-screen bg-main overflow-hidden"
+    >
+      <div class="hero-left-content w-10 relative h-full">
+        <h2 class="text-secondry text-2xl rotate-text">CHipriani</h2>
+      </div>
+      <div class="hero hero1 w-90 h-full ">
+        <div class="h-full flex flex-col justify-end container">
+          <!-- content & photos -->
+          <div
+            class="hero-content flex flex-row justify-between items-center w-full flex-wrap gap-3"
+          >
+            <div class="flex flex-col gap-y-1">
+              <h3 class="text-lg">CHipriani</h3>
+              <h2 class="text_stroke">Best Coffe In Riyadh</h2>
+              <div class="flex gap-x-4">
+                <a href="#menu" class="p-y-5 p-x-10 bg-secondry button-hero text-normal">
+                  Menu
+                </a>
+                <a href="#location"
+                  class="p-y-5 p-x-10 button-hero button-location text-normal"
+                >
+                  <i class="fa-solid fa-location-dot"></i>
+                  Location
+                </a>
+              </div>
+            </div>
+  
+            <div
+              class="parent-hero-images flex flex-row items-center justify-between gap-x-2"
+            >
+              <div class="hero-images">
+                <img
+                  alt="coofe shop"
+                  src="./public/heroSecthion1.png"
+                  loading="lazy"
+                />
+              </div>
+              <div class="hero-images">
+                <img
+                  alt="coofe shop"
+                  src="./public/heroSecthion2.png"
+                  loading="lazy"
+                />
+              </div>
+              <div class="hero-images">
+                <img
+                  alt="coofe shop"
+                  src="./public/heroSecthion3.png"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+  
+          <a
+            href="#about"
+            class="flex flex-col items-center justify-center p-y-5 arrow-animate"
+          >
+            <i class="fa-solid fa-angle-down"></i>
+            <i class="fa-solid fa-angle-down"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero Section -->
+
+    <!-- start About -->
+    <section id="about" class="about container-fluid flex justify-between items-center gap-3 p-y-40 m-y-40">
+      
+      <div class="w-60">
+        <h3 class="text-secondry">About CHipriani</h3>
+        <h2 class="text-xl font-bold">
+          Lorem Ipsum is simply dummy text of the printing
+        </h2>
+        <p class="font-light">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+          imperdiet iaculis ipsum aliquet ultricies. Sed a tincidunt enim.
+          Maecenas ultrices viverra ligula, vel loboris ante pulvinar sed
+          deleniti atque corrupti quos dolores et quas molestias excepturi sint
+          ocacti cupiditate non provident, similique sunt in culpa qui.
+        </p>
+      </div>
+
+      <div class="w-40">
+        <img 
+          alt="about coffe shop"
+          src="./public/about.png"
+          loading="lazy"
+          width="100"
+          height="100"
+          class="w-full h-full rounded-15"
+        />
+      </div>
+    </section>
+    <!-- end about -->
+
+    <!-- start photos -->
+    <section class="about-pictures container-fluid flex items-center flex-col gap-y-2 h-screen">
+      <h4 class="text-normal font-light text-secondry text-center">Enjoy some of our awesome spaces</h4>
+      <h2 class="text-xl font-bold text-center">Photos of the insides</h2>
+      
+      <div class="flex justify-between items-center gap-2 h-70 w-full">
+        <div class="w-70 h-full flex flex-col gap-2">
+          <img 
+            alt="about coffe shop 1"
+            src="./public/photos1.png"
+            width="100"
+            height="100"
+            loading="lazy"
+            class="w-full h-70 rounded-10 object-cover"
+          />
+
+          <img 
+            alt="about coffe shop 1"
+            src="./public/photos2.png"
+            width="100"
+            height="100"
+            loading="lazy"
+            class="w-full h-30 rounded-10 object-cover"
+          />
+        </div>
+
+        <div class="w-30 h-full flex flex-col gap-2">
+          <img 
+            alt="about coffe shop 1"
+            src="./public/photos3.png"
+            width="100"
+            height="100"
+            loading="lazy"
+            class="w-full h-30 rounded-10 object-cover"
+          />
+
+          <img 
+            alt="about coffe shop 1"
+            src="./public/photos4.png"
+            width="100"
+            height="100"
+            loading="lazy"
+            class="w-full h-70 rounded-10 object-cover"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- end photos -->
+
+    <!-- start menu -->
+    <section id="menu" class="parent-menu">
+      <div class="container-fluid h-full flex flex-col items-center justify-evenly">
+        <div class="w-full h-70 flex flex-col items-center justify-center">
+          <h2 class="header">Our menu</h2>
+          <h3 class="text-xl text-center font-semibold">Glad to serve you</h3>
+  
+          <!-- taps -->
+          <div class="taps">
+            <button>
+              Main
+            </button>
+            <span ></span>
+            <button>
+              Desert
+            </button>
+            <span ></span>
+            <button>
+              COLD DRINKS
+            </button>
+            <span ></span>
+            <button>
+              HOT DRINKS
+            </button>
+          </div>
+  
+          <!-- data -->
+          <div class="menu-data">
+            <div class="w-full flex justify-between items-center">
+              Espresso
+              <span class="text-secondry">
+                55 SAR
+              </span>
+            </div>
+            <div class="w-full flex justify-between items-center">
+              Espresso
+              <span class="text-secondry">
+                55 SAR
+              </span>
+            </div>
+            <div class="w-full flex justify-between items-center">
+              Espresso
+              <span class="text-secondry">
+                55 SAR
+              </span>
+            </div>
+            <div class="w-full flex justify-between items-center">
+              Espresso
+              <span class="text-secondry">
+                55 SAR
+              </span>
+            </div>
+            <div class="w-full flex justify-between items-center">
+              Espresso
+              <span class="text-secondry">
+                55 SAR
+              </span>
+            </div>
+            <div class="w-full flex justify-between items-center">
+              Espresso
+              <span class="text-secondry">
+                55 SAR
+              </span>
+            </div>
+            <div class="w-full flex justify-between items-center">
+              Espresso
+              <span class="text-secondry">
+                55 SAR
+              </span>
+            </div>
+            <div class="w-full flex justify-between items-center">
+              Espresso
+              <span class="text-secondry">
+                55 SAR
+              </span>
+            </div>
+            <div class="w-full flex justify-between items-center">
+              Espresso
+              <span class="text-secondry">
+                55 SAR
+              </span>
+            </div>
+            <div class="w-full flex justify-between items-center">
+              Espresso
+              <span class="text-secondry">
+                55 SAR
+              </span>
+            </div>
+            <div class="w-full flex justify-between items-center">
+              Espresso
+              <span class="text-secondry">
+                55 SAR
+              </span>
+            </div>
+            <div class="w-full flex justify-between items-center">
+              Espresso
+              <span class="text-secondry">
+                55 SAR
+              </span>
+            </div>
+            <div class="w-full flex justify-between items-center">
+              Espresso
+              <span class="text-secondry">
+                55 SAR
+              </span>
+            </div>
+            <div class="w-full flex justify-between items-center">
+              Espresso
+              <span class="text-secondry">
+                55 SAR
+              </span>
+            </div>
+            <div class="w-full flex justify-between items-center">
+              Espresso
+              <span class="text-secondry">
+                55 SAR
+              </span>
+            </div>
+            <div class="w-full flex justify-between items-center">
+              Espresso
+              <span class="text-secondry">
+                55 SAR
+              </span>
+            </div>
+            <div class="w-full flex justify-between items-center">
+              Espresso
+              <span class="text-secondry">
+                55 SAR
+              </span>
+            </div>
+            <div class="w-full flex justify-between items-center">
+              Espresso
+              <span class="text-secondry">
+                55 SAR
+              </span>
+            </div>
+            <div class="w-full flex justify-between items-center">
+              Espresso
+              <span class="text-secondry">
+                55 SAR
+              </span>
+            </div>
+            <div class="w-full flex justify-between items-center">
+              Espresso
+              <span class="text-secondry">
+                55 SAR
+              </span>
+            </div>
+            <div class="w-full flex justify-between items-center">
+              Espresso
+              <span class="text-secondry">
+                55 SAR
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <button class="menu-button" id="downloadMenu">
+          <img 
+            alt="coffe shop"
+            src="./public/food.png"
+            width="100"
+            height="100"
+            loading="lazy"
+          />
+          Download Menu
+        </button>
+        
+        <!-- picture -->
+        <img 
+          alt="coffe shop"
+          src="./public/menu.png"
+          width="100"
+          height="100"
+          loading="lazy"
+          class="menu-picture"
+        />
+      </div>
+    </section>
+    <!-- end menu -->
+
+    <!-- start special offers -->
+    <section class="special-offers container-fluid m-y-40">
+      <div class="w-full flex gap-x-2 items-center">
+        <h2>Special Offers</h2>
+        <span></span>
+      </div>
+      <div class="flex justify-between items-center gap-2">
+        <!-- card -->
+        <div id="specialOffersCard" class="flex flex-col items-center gap-y-2">
+          <img 
+            alt="about coffe shop 1"
+            src="./public/specialOffers1.png"
+            width="100"
+            height="100"
+            loading="lazy"
+            class="w-full rounded-10 object-contain"
+          />
+          <h5 class="text-secondry text-normal font-light">Karak Tea</h5>
+          <p class="text-normal font-light text-center text-fourth m-0">Lorem ipsum dolor sit amet, margin and padding. </p>
+          <p class="font-semibold text-center m-0">19.00 SAR</p>
+        </div>
+        <div id="specialOffersCard" class="flex flex-col items-center gap-y-2">
+          <img 
+            alt="about coffe shop 1"
+            src="./public/specialOffers2.png"
+            width="100"
+            height="100"
+            loading="lazy"
+            class="w-full rounded-10 object-contain"
+          />
+          <h5 class="text-secondry text-normal font-light">Karak Tea</h5>
+          <p class="text-normal font-light text-center text-fourth m-0">Lorem ipsum dolor sit amet, margin and padding. </p>
+          <p class="font-semibold text-center m-0">19.00 SAR</p>
+        </div>
+        <div id="specialOffersCard" class="flex flex-col items-center gap-y-2">
+          <img 
+            alt="about coffe shop 1"
+            src="./public/specialOffers2.png"
+            width="100"
+            height="100"
+            loading="lazy"
+            class="w-full rounded-10 object-contain"
+          />
+          <h5 class="text-secondry text-normal font-light">Karak Tea</h5>
+          <p class="text-normal font-light text-center text-fourth m-0">Lorem ipsum dolor sit amet, margin and padding. </p>
+          <p class="font-semibold text-center m-0">19.00 SAR</p>
+        </div>
+      </div>
+    </section>
+    <!-- end special offers -->
+    
+    <!-- start booking -->
+    <section id="booking" class="booking w-full flex justify-between items-center">
+      <div class="w-90 h-full booking-picture">
+        <div class="w-full h-full relative">
+          <div class="parent-content-booking h-full container-fluid flex justify-evenly items-center ">
+            <h3 class="font-bold text-xl">
+              Book now and we will reserve a table for you and your guests
+            </h3>
+            
+            <form class="flex flex-col gap-y-2 w-40">
+              <h3 class="font-bold text-xl">
+                Book a tabel
+              </h3>
+              <!-- number of guests -->
+              <input 
+                type="text"
+                name="numOfGueste"
+                id="numOfGueste"
+                placeholder="Number of guests"
+                class="p-x-20"
+              />
+              <div class="flex items-center gap-x-2">
+                <!-- branch -->
+                <select 
+                  id="branch"
+                  class="p-x-10"
+                >
+                  <option selected disabled>Choose branch</option>
+                </select>
+  
+                <!-- date -->
+                <input 
+                  type="date"
+                  name="date"
+                  id="date"
+                  class="p-x-10"
+                />
+              </div>
+  
+              <div class="parnet-phone-submit flex items-center">
+                <input 
+                  type="number"
+                  name="numOfGueste"
+                  id="numOfGueste"
+                  placeholder="Your Phone Number"
+                  class="p-x-20"
+                />
+                <button class="bg-secondry">
+                  Book Now
+                </button>
+              </div>
+  
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-10 relative h-full booking-right-text">
+        <h2 class="text-secondry text-2xl rotate-text">Book</h2>
+      </div>
+    </section>
+    <!-- end booking -->
+
+    <!-- start social & delivery logos -->
+    <section id="socialmedia" class="parent-social container-fluid flex justify-evenly gap-3 m-y-40 p-y-40">
+      <div id="deliveryapps" class="w-30 flex flex-col items-center gap-y-3">
+        <h6 class="header">Order via</h6>
+        <h3 class="font-bold text-lg">Our Delivery Apps</h3>
+        <div class="parent-deliveryimages flex items-center flex-wrap gap-2">
+          <img 
+            alt="about coffe shop 1"
+            src="./public/delivry1.png"
+            width="60"
+            height="60"
+            loading="lazy"
+            class="rounded-10 object-contain"
+          />
+          <img 
+            alt="about coffe shop 1"
+            src="./public/delivry2.png"
+            width="60"
+            height="60"
+            loading="lazy"
+            class="rounded-10 object-contain"
+          />
+          <img 
+            alt="about coffe shop 1"
+            src="./public/delivry3.png"
+            width="60"
+            height="60"
+            loading="lazy"
+            class="rounded-10 object-contain"
+          />
+          <img 
+            alt="about coffe shop 1"
+            src="./public/delivry5.png"
+            width="60"
+            height="60"
+            loading="lazy"
+            class="rounded-10 object-contain"
+          />
+          <img 
+            alt="about coffe shop 1"
+            src="./public/delivry6.png"
+            width="60"
+            height="60"
+            loading="lazy"
+            class="rounded-10 object-contain"
+          />
+          <img 
+            alt="about coffe shop 1"
+            src="./public/delivry7.png"
+            width="60"
+            height="60"
+            loading="lazy"
+            class="rounded-10 object-contain"
+          />
+          <img 
+            alt="about coffe shop 1"
+            src="./public/delivry8.png"
+            width="60"
+            height="60"
+            loading="lazy"
+            class="rounded-10 object-contain"
+          />
+          <img 
+            alt="about coffe shop 1"
+            src="./public/delivry9.png"
+            width="60"
+            height="60"
+            loading="lazy"
+            class="rounded-10 object-contain"
+          />
+          <img 
+            alt="about coffe shop 1"
+            src="./public/delivry10.png"
+            width="60"
+            height="60"
+            loading="lazy"
+            class="rounded-10 object-contain"
+          />
+          <img 
+            alt="about coffe shop 1"
+            src="./public/delivry11.png"
+            width="60"
+            height="60"
+            loading="lazy"
+            class="rounded-10 object-contain"
+          />
+          <img 
+            alt="about coffe shop 1"
+            src="./public/delivry12.png"
+            width="60"
+            height="60"
+            loading="lazy"
+            class="rounded-10 object-contain"
+          />
+          <img 
+            alt="about coffe shop 1"
+            src="./public/delivry13.png"
+            width="60"
+            height="60"
+            loading="lazy"
+            class="rounded-10 object-contain"
+          />
+          <img 
+            alt="about coffe shop 1"
+            src="./public/delivry14.png"
+            width="60"
+            height="60"
+            loading="lazy"
+            class="rounded-10 object-contain"
+          />
+        </div>
+      </div>
+
+      <div class="w-30 flex flex-col items-center gap-y-3">
+        <h6 class="header">Connect with us</h6>
+        <h3 class="font-bold text-lg">Our Social Media</h3>
+        <div class="parent-socialimages flex items-center flex-wrap gap-2">
+          <img 
+            alt="about coffe shop 1"
+            src="./public/snapChat.png"
+            width="60"
+            height="60"
+            loading="lazy"
+            class="rounded-10 object-contain"
+          />
+          <img 
+            alt="about coffe shop 1"
+            src="./public/facebook.png"
+            width="60"
+            height="60"
+            loading="lazy"
+            class="rounded-10 object-contain"
+          />
+          <img 
+            alt="about coffe shop 1"
+            src="./public/linkedIn.png"
+            width="60"
+            height="60"
+            loading="lazy"
+            class="rounded-10 object-contain"
+          />
+          <img 
+            alt="about coffe shop 1"
+            src="./public/telegram.png"
+            width="60"
+            height="60"
+            loading="lazy"
+            class="rounded-10 object-contain"
+          />
+          <img 
+            alt="about coffe shop 1"
+            src="./public/twitter.png"
+            width="60"
+            height="60"
+            loading="lazy"
+            class="rounded-10 object-contain"
+          />
+          <img 
+            alt="about coffe shop 1"
+            src="./public/messanger.png"
+            width="60"
+            height="60"
+            loading="lazy"
+            class="rounded-10 object-contain"
+          />
+          <img 
+            alt="about coffe shop 1"
+            src="./public/tiktok.png"
+            width="60"
+            height="60"
+            loading="lazy"
+            class="rounded-10 object-contain"
+          />
+          <img 
+            alt="about coffe shop 1"
+            src="./public/whatsapp.png"
+            width="60"
+            height="60"
+            loading="lazy"
+            class="rounded-10 object-contain"
+          />
+          <img 
+            alt="about coffe shop 1"
+            src="./public/instgram.png"
+            width="60"
+            height="60"
+            loading="lazy"
+            class="rounded-10 object-contain"
+          />
+          <img 
+            alt="about coffe shop 1"
+            src="./public/youtube.png"
+            width="60"
+            height="60"
+            loading="lazy"
+            class="rounded-10 object-contain"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- end social & delivery logos -->
+
+    <!-- start branches -->
+    <section id="location" class="parent-branch">
+      <div>
+        <div class="container-fluid h-full flex items-center flex-col justify-center gap-y-2">
+          <span>
+            <i class="fa-solid fa-location-dot"></i>
+          </span>
+          <h2 class="branch-header">Our Branches</h2>
+          <div class="parent-branch-cards flex w-60 flex-col items-center gap-2">
+
+            <div class="w-full flex items-center justify-between gap-x-3">
+              <!-- card -->
+              <div class="branch-card">
+                <span class="w-full flex justify-between items-center">
+                  Jeddah Branch
+                  <a href="#">
+                    Visit
+                  </a>
+                </span>
+              </div>
+              <!-- end Card -->
+              <!-- card -->
+              <div class="branch-card">
+                <span class="w-full flex justify-between items-center">
+                  Riyadh Branch
+                  <a href="#">
+                    Visit
+                  </a>
+                </span>
+              </div>
+              <!-- end Card -->
+            </div>
+
+            <div class="w-full flex items-center justify-between gap-x-3">
+              <!-- card -->
+              <div class="branch-card">
+                <span class="w-full flex justify-between items-center">
+                  Jeddah Branch
+                  <a href="#">
+                    Visit
+                  </a>
+                </span>
+              </div>
+              <!-- end Card -->
+              <!-- card -->
+              <div class="branch-card">
+                <span class="w-full flex justify-between items-center">
+                  Riyadh Branch
+                  <a href="#">
+                    Visit
+                  </a>
+                </span>
+              </div>
+              <!-- end Card -->
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end branches -->
+
+    <!-- start video -->
+    <section id="video" class="parent-videosection">
+      <div class="container-fluid flex flex-col items-center justify-center gap-y-2">
+        <h2 class="header">Video for our space</h2>
+        <h3 class="text-xl text-center">Lorem Ipsum is simply dummy <br /> text of the printing</h3>
+
+        <img 
+          alt="coffe shop"
+          src="./public/demo.png"
+          class="w-90 object-cover m-y-20"
+        />
+      </div>
+    </section>
+    <!-- end video -->
+
+    <!-- start footer -->
+    <footer class="w-full">
+      <div class="container-fluid flex justify-between items-center flex-wrap">
+        <p class="m-0">English</p>
+        <span class="flex items-center">
+          <p>مع</p>
+          <a href="#">Allin1</a>
+          قرب المسافة بينك وبين جمهورك
+          <a href="#">وانشيئ صفحتك الان</a>
+        </span>
+        <p class="m-0">© Copyright  Chipriani by ALLIN1  2023</p>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+  </body>
+  <script src="./navbar.js"></script>
+  <script src="./hero.js"></script>
+</html>

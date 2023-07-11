@@ -1,0 +1,88 @@
+.parent-menu {
+  position: relative;
+  height: 900px;
+}
+.menu-picture {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  max-width: 20%;
+  min-width: 200px;
+}
+.menu-button{
+  padding: 15px 20px;
+  text-align: center;
+  border: 1px solid transparent;
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  color: inherit;
+  background-color: var(--fiveColor);
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  transition: all 0.5s ease-in-out;
+}
+.menu-button > img{
+  object-fit: contain;
+  width: 15px;
+  height: fit-content;
+}
+.menu-button:hover{
+  background-color: transparent;
+  border-color: var(--fiveColor);
+}
+.taps {
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+.taps > button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: var(--secondryColor);
+}
+
+.taps > span {
+  height: 35px;
+  width: 1px;
+  background-color: #ffffff40;
+}
+
+.menu-data {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 30px;
+  width: 100%;
+  max-height: 60%;
+  overflow-y: auto;
+}
+.menu-data::-webkit-scrollbar{
+  width: 5px;
+}
+.menu-data::-webkit-scrollbar-thumb{
+  background-color: var(--secondryColor);
+  border-radius: 50px;
+  margin-left: 10px;
+}
+
+
+@media (max-width:550px) {
+  .taps{
+    border-top: 1px solid var(--fiveColor);
+    border-bottom: 1px solid var(--fiveColor);
+    padding: 10px 0;
+  }
+  .taps > span{
+    display: none;
+  }
+  .menu-data{
+    grid-template-columns: auto;
+  }
+}
