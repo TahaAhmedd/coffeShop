@@ -5,15 +5,15 @@
   height: 100%;
 }
 .hero1{
-  background-image: url(../public/heroSecthion1.png);
+  background-image: url(../photos/heroSecthion1.png);
   animation: fadeIn 1s ease-in-out;
 }
 .hero2{
-  background-image: url(../public/heroSecthion2.png);
+  background-image: url(../photos/heroSecthion2.png);
   animation: fadeIn 1s ease-in-out;
 }
 .hero3{
-  background-image: url(../public/heroSecthion3.png);
+  background-image: url(../photos/heroSecthion3.png);
   animation: fadeIn 1s ease-in-out;
 }
 

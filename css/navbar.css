@@ -2,7 +2,6 @@ body{
   color: #FFF;
 }
 header{
-  position: relative;
   background-color: transparent;
   position: fixed;
   top: 0;
@@ -10,6 +9,9 @@ header{
   width: 100%;
   z-index: 100;
   transition: background-color 0.5s ease-in-out ;
+}
+.position-sticky{
+  position: sticky;
 }
 li{
   list-style: none;

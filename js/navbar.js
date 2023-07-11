@@ -20,9 +20,11 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
 
 window.addEventListener('scroll',()=>{
   if(window.scrollY >= 100 ){
+    navbar.classList.add("position-sticky")
     navbar.classList.add("bg-main")
   }
   else{
+    navbar.classList.remove("position-sticky")
     navbar.classList.remove("bg-main")
   }
 })
