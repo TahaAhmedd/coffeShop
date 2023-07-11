@@ -3,19 +3,22 @@
   background-position: center;
   width: 100%;
   height: 100%;
-  padding: 0px 20px ;
 }
 .hero1{
   background-image: url(../public/heroSecthion1.png);
-  animation: fadeIn 2s ease-in-out;
+  animation: fadeIn 1s ease-in-out;
 }
 .hero2{
   background-image: url(../public/heroSecthion2.png);
-  animation: fadeIn 2s ease-in-out;
+  animation: fadeIn 1s ease-in-out;
 }
 .hero3{
   background-image: url(../public/heroSecthion3.png);
-  animation: fadeIn 2s ease-in-out;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.hero > div{
+  background: linear-gradient(90deg ,#231F20 , #231F2000);
 }
 .text_stroke{
   color: transparent;
