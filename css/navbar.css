@@ -1,6 +1,3 @@
-body{
-  color: #FFF;
-}
 header{
   background-color: transparent;
   position: fixed;
@@ -18,8 +15,8 @@ li{
 }
 
 a{
-  color: white;
-  text-decoration: none;
+  color: inherit !important ;
+  text-decoration: none !important;
 }
 
 .container{

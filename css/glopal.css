@@ -15,7 +15,8 @@ body{
   margin: 0;
   padding: 0;
   font-family: serif;
-  background-color: var(--mainColor);
+  color: #fff !important;
+  background-color: var(--mainColor) !important;
 }
 .container-fluid{
   width: 80%;
