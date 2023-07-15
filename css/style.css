@@ -4,10 +4,6 @@
   text-transform: uppercase;
   text-align: center;
 }
-.about-pictures > div {
-  margin-top: 20px;
-  width: 90%;
-}
 
 /* start special offers */
 .special-offers > div {
